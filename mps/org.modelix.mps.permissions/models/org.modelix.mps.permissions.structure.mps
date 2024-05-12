@@ -62,6 +62,9 @@
     <node concept="PrWs8" id="58wfKC5$oCJ" role="PzmwI">
       <ref role="PrY4T" node="58wfKC5$fS0" resolve="IPermissionsSchemaContent" />
     </node>
+    <node concept="PrWs8" id="58wfKC5Ba4T" role="PzmwI">
+      <ref role="PrY4T" node="58wfKC5$oUc" resolve="IResourceContent" />
+    </node>
   </node>
   <node concept="1TIwiD" id="58wfKC5$d1z">
     <property role="EcuMT" value="5917799222640431203" />
@@ -124,6 +127,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="58wfKC5$fS0" resolve="IPermissionsSchemaContent" />
     </node>
+    <node concept="1TJgyj" id="58wfKC5Bla1" role="1TKVEi">
+      <property role="IQ2ns" value="5917799222641250945" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="extendedSchemas" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="58wfKC5Bl9K" resolve="PermissionSchemaReference" />
+    </node>
     <node concept="PrWs8" id="58wfKC5$d1J" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -154,6 +164,33 @@
     </node>
     <node concept="PrWs8" id="58wfKC5$DUB" role="PzmwI">
       <ref role="PrY4T" node="58wfKC5$$mC" resolve="IPermissionContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="58wfKC5AyV0">
+    <property role="EcuMT" value="5917799222641045184" />
+    <property role="TrG5h" value="Includes" />
+    <property role="34LRSv" value="includes" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="58wfKC5AyV3" role="1TKVEi">
+      <property role="IQ2ns" value="5917799222641045187" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="targetPermission" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="58wfKC5$d1F" resolve="PermissionReference" />
+    </node>
+    <node concept="PrWs8" id="58wfKC5AyV1" role="PzmwI">
+      <ref role="PrY4T" node="58wfKC5$$mC" resolve="IPermissionContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="58wfKC5Bl9K">
+    <property role="EcuMT" value="5917799222641250928" />
+    <property role="TrG5h" value="PermissionSchemaReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="58wfKC5Bl9L" role="1TKVEi">
+      <property role="IQ2ns" value="5917799222641250929" />
+      <property role="20kJfa" value="schema" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="58wfKC5$d1I" resolve="PermissionSchema" />
     </node>
   </node>
 </model>
